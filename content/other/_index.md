@@ -1,7 +1,7 @@
 +++
-title = "My blog posts"
+title = "Other Projects"
 sort_by = "date"
-template = "blog.html"
+template = "other.html"
 page_template = "blog-page.html"
 +++
 

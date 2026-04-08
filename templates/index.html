@@ -11,9 +11,18 @@
 </div>
 <div class="bar"></div>
 
+<div class="topnav">
+    <a href="{{ get_url(path='.') }}">Home</a>
+    <a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a>
+    <a href="{{ get_url(path='@/other/_index.md') }}">Other Projects</a>
+</div>
+
 <div class="index-body">
     <p>
-        I'm a writer and artist of sorts living in Seattle. I mostly write speculative fiction and I'm currently working on my debut novel. If you'd like to get in contact with me, send me an email at me@davidthien.com.
+        I'm a writer and artist of sorts living in Seattle.
+        I mostly write speculative fiction and I'm currently working on my debut novel.
+        If you'd like to get in contact with me, send me an email at
+        <button onclick="navigator.clipbaord.writeText('me@davidthien.com')"><a href="#">me@davidthien.com</a></button> <mini>(click to copy)</mini>.
     </p>
 
     <p>
