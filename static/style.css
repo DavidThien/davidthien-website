@@ -11,6 +11,10 @@ body {
     font-family: verdana;
 }
 
+p {
+    text-indent: 35px;
+}
+
 .headtitle {
     position: relative;
     display: inline-block;
