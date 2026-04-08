@@ -12,9 +12,11 @@
 <div class="bar"></div>
 
 <div class="topnav">
-    <a href="{{ get_url(path='.') }}">Home</a>
-    <a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a>
-    <a href="{{ get_url(path='@/other/_index.md') }}">Other Projects</a>
+    <ul>
+        <li><a href="{{ get_url(path='.') }}">Home</a></li>
+        <li><a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a></li>
+        <li><a href="{{ get_url(path='@/other/_index.md') }}">Other Projects</a></li>
+    </ul>
 </div>
 
 <div class="index-body">
